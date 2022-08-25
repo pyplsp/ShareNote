@@ -117,6 +117,9 @@ export default {
         })
         this.changeTag("历史",0)
     },
+    updated() {
+      this.bs.refresh()
+    },
     activated() {
         this.bs.refresh();
     },
@@ -238,11 +241,10 @@ export default {
         border-radius: 0 10px 10px 0;
     }
     .content{
-        /*flex: 4;*/
         margin-left: 3.8rem;
         margin-bottom: 4.1rem;
         margin-top: 4.1rem;
-        height: 35rem;
+        height: calc(100vh - 8.2rem);
         overflow: hidden;
         position: relative;
     }
