@@ -21,7 +21,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-*.md
 
 ### Vue template
 # gitignore template for Vue.js projects
