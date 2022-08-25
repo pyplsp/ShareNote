@@ -1,0 +1,11 @@
+/*:root -> 获取根元素html*/
+:root {
+  --color-theme: #ffaeae;
+  --color-text: #666;
+  --color-inActive: #dadada;
+  --color-high-text: #ff5777;
+  --color-tint: #ff8198;
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5;
+}
